@@ -11,6 +11,12 @@ seaborn = "*"
 matplotlib = "*"
 scipy = "*"
 ipykernel = "*"
+beautifulsoup4 = "*"
+selenium = "*"
+google-auth = "*"
+google-auth-oauthlib = "*"
+google-auth-httplib2 = "*"
+google-api-python-client = "*"
 
 [dev-packages]
 
