@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minimalism To-Go</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a href="#" class="brand">Minimalism Brand</a>
+        <div class="nav-icons">
+          <a href="#" class="icon">🛒</a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="product-grid">
+        <!-- Grid de Imágenes -->
+        <div class="image-grid">
+          <div class="image-item">
+            <img src="https://apartamentsager.es/wp-content/uploads/2024/11/DALL·E-2024-11-08-10.35.59-A-stylish-and-sustainable-Minimalism-To-Go-kit-featuring-a-large-hermetic-glass-food-container-tupper-a-stainless-steel-carrying-case-and-a-reus.webp" />
+          </div>
+          <div class="image-item">
+            <img src="https://apartamentsager.es/wp-content/uploads/2024/11/DALL·E-2024-11-08-10.36.50-A-stylish-and-sustainable-Minimalism-To-Go-kit-featuring-a-large-hermetic-glass-food-container-tupper-a-stainless-steel-carrying-case-a-reusable.webp" alt="Minimalism To-Go horizontal view" />
+          </div>
+        </div>
+
+        <!-- Información del Producto -->
+        <div class="product-info">
+          <h1>Minimalism To-Go</h1>
+
+          <!-- Valoración -->
+          <div class="rating">
+            <span class="stars">★★★★</span><span class="star-empty">★</span>
+            <span class="rating-count">(128 valoraciones)</span>
+          </div>
+
+          <div class="price">Precio no especificado</div>
+
+          <!-- Descripción -->
+          <div class="description">
+            <p>
+              El kit <bold>Minimalism To-Go</bold> es la solución perfecta para llevar tus comidas al trabajo. Incluye un tupper de cristal, utensilios reutilizables y una maleta de acero inoxidable, todo diseñado para ofrecer funcionalidad y estilo.
+            </p>
+            <p>
+              Diseñado con un enfoque en la sostenibilidad, este kit no solo es práctico, sino que también refuerza el compromiso de tu empresa con el medio ambiente.
+            </p>
+          </div>
+
+          <!-- Materiales -->
+          <div class="materials">
+            <h3>Materiales</h3>
+            <ul>
+              <li>
+                <span class="material-icon">🔄</span> Cristal para el tupper
+              </li>
+              <li><span class="material-icon">🌱</span> Acero inoxidable para la maleta</li>
+              <li>
+                <span class="material-icon">♻️</span> Utensilios de acero inoxidable
+              </li>
+            </ul>
+          </div>
+
+          <!-- Botón de Compra -->
+          <button class="add-to-cart">Añadir al Carrito</button>
+
+          <!-- Envío -->
+          <div class="shipping-info">
+            <div class="shipping-item">
+              <span class="shipping-icon">🚚</span>
+              <div class="shipping-text">
+                <h4>Envío gratuito</h4>
+                <p>En pedidos superiores a 50€</p>
+              </div>
+            </div>
+            <div class="shipping-item">
+              <span class="shipping-icon">↩️</span>
+              <div class="shipping-text">
+                <h4>Devolución gratuita</h4>
+                <p>30 días para devoluciones</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Detalles de Materiales -->
+          <div class="material-details">
+            <h3>Especificaciones</h3>
+            <div class="specs-grid">
+              <div class="spec-item">
+                <span class="spec-label">Tupper</span>
+                <span class="spec-value">Cristal hermético</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Maleta</span>
+                <span class="spec-value">Acero inoxidable</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Utensilios</span>
+                <span class="spec-value">Acero inoxidable</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Roboto', sans-serif;
+        color: #333;
+        line-height: 1.6;
+        background: #fff;
+      }
+
+      .navbar {
+        padding: 1rem 2rem;
+        background: white;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+        border-bottom: 1px solid #eee;
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1400px;
+        margin: 0 auto;
+      }
+
+      .brand {
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-decoration: none;
+        color: #333;
+        letter-spacing: 2px;
+      }
+
+      main {
+        margin-top: 80px;
+        padding: 2rem;
+        max-width: 1400px;
+        margin: 80px auto 0;
+      }
+
+      .product-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+      }
+
+      .image-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        position: sticky;
+        top: 100px;
+      }
+
+      .image-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .product-info {
+        padding: 2rem 0;
+      }
+
+      h1 {
+        font-size: 2rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+      }
+
+      .rating {
+        margin-bottom: 1.5rem;
+      }
+
+      .stars {
+        color: #ffb800;
+      }
+
+      .star-empty {
+        color: #ddd;
+      }
+
+      .rating-count {
+        color: #666;
+        margin-left: 0.5rem;
+      }
+
+      .price {
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin-bottom: 2rem;
+      }
+
+      .description {
+        margin-bottom: 2rem;
+        color: #666;
+      }
+
+      .materials {
+        margin-bottom: 2rem;
+        padding: 1.5rem;
+        background: #f9f9f9;
+        border-radius: 8px;
+      }
+
+      .materials h3 {
+        margin-bottom: 1rem;
+        font-weight: 400;
+      }
+
+      .materials ul {
+        list-style: none;
+      }
+
+      .materials li {
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .add-to-cart {
+        width: 100%;
+        padding: 1rem;
+        background: #333;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-bottom: 2rem;
+      }
+
+      .add-to-cart:hover {
+        background: #555;
+      }
+
+      .shipping-info {
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        padding: 2rem 0;
+        margin-bottom: 2rem;
+      }
+
+      .shipping-item {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      .shipping-icon {
+        font-size: 1.5rem;
+      }
+
+      .shipping-text h4 {
+        font-weight: 400;
+        margin-bottom: 0.2rem;
+      }
+
+      .shipping-text p {
+        color: #666;
+        font-size: 0.9rem;
+      }
+
+      .material-details {
+        background: #f9f9f9;
+        padding: 1.5rem;
+        border-radius: 8px;
+      }
+
+      .material-details h3 {
+        margin-bottom: 1rem;
+        font-weight: 400;
+      }
+
+      .specs-grid {
+        display: grid;
+        gap
